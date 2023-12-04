@@ -1,8 +1,8 @@
 const element = document.createElement('span')
-element.textContent = 'app worked'
+element.textContent = '☛• app worked! •☚'
 
 document.body.appendChild(element)
-console.log('app worked')
+console.log('app worked!')
 
 import Game, { GameSavingData, readGameSaving as loadGame, writeGameSaving as saveGame } from './game'
 
